@@ -27,8 +27,8 @@ keeps Flutter assets available. Debug symbols and local config are excluded.
 
 This is not approval to invite families. Before merging/publishing:
 - Resolve and review privacy, deletion and club DPA pages, then add their final HTML.
-- Configure and verify hosted email-code sign-in and SMTP.
-- Add `.well-known/assetlinks.json` using the actual Play App Signing certificate
+- Hosted site/redirect URLs are set. Custom SMTP and six-digit code templates/OTP delivery still need verification.
+- `.well-known/assetlinks.json` now contains the verified local upload certificate for sideloaded APKs. Add the actual Play App Signing certificate before testing Play-installed links
   (plus the upload certificate only if sideloading). Never publish a placeholder.
 - Complete physical Android/iPhone web checks and obtain club welfare acceptance.
 
