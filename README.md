@@ -33,5 +33,5 @@ This is not approval to invite families. Before merging/publishing:
 - Complete physical Android/iPhone web checks and obtain club welfare acceptance.
 
 The private repository holds `docs/myteamos/RELEASE-REVIEW.md`, RELEASE.md and
-TRIAL.md. No private source, test records, service-role key or signing material
+TRIAL.md. No private source, test records, service-role key or private signing material
 belongs here. The compiled app contains only the public Supabase anon key.
