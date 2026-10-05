@@ -1,0 +1,6 @@
+<!doctype html><html lang="en-GB"><meta charset="utf-8"><title>MyTeamOS link</title>
+<p id="message">This page is unavailable. <a href="/">Return to Wild Studio</a>.</p>
+<script>
+const join = location.pathname.match(/^\/myteamos\/join\/([A-Fa-f0-9]{8})\/?$/);
+if (join) location.replace('/myteamos/join/?code=' + encodeURIComponent(join[1].toUpperCase()));
+</script></html>
