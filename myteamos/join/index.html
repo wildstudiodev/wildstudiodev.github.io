@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-GB">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Set to the deployed Flutter web URL, e.g. https://your-approved-host/app/.
+     No credentials, app source or child data belongs in this public landing page. -->
+<meta name="myteamos-web-app" content="https://wildstudiodev.github.io/myteamos/app/">
+<title>Join your team · MyTeamOS</title>
+<style>
+  body{font:18px/1.6 system-ui,sans-serif;background:#f6f8f5;color:#18332a;margin:0;padding:24px}
+  main{max-width:560px;margin:48px auto;background:white;border-radius:16px;padding:32px}
+  h1{font-size:2rem;line-height:1.2}a{color:#165a42}a.button{display:block;background:#165a42;color:white;border-radius:8px;padding:12px 16px;margin:16px 0;text-align:center;text-decoration:none}
+  a:focus-visible{outline:3px solid #9b5b00;outline-offset:4px}[hidden]{display:none!important}
+</style>
+<main>
+  <h1>Join your team</h1>
+  <p>Sign in with an email code, choose your child, then wait for the coach to approve.</p>
+  <p>On Android, this link opens MyTeamOS if the app and verified links are installed. Otherwise, check the Android listing or continue in your browser. iPhone parents can use the web app.</p>
+  <a class="button" href="https://play.google.com/store/apps/details?id=com.wildstudiodev.myteamos">Check Android availability</a>
+  <p>The Android listing may not be available during testing.</p>
+  <a class="button" id="web" hidden>Continue on web</a>
+  <p id="status" role="status">The web testing link has not been configured yet. Ask your coach for the current testing link.</p>
+  <p>No child details are shown on this public page.</p>
+</main>
+<script src="landing.js"></script>
+</html>

@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.wildstudiodev.myteamos",
+      "sha256_cert_fingerprints": [
+        "C5:FA:CF:8F:74:16:CE:6F:CB:18:07:48:9A:50:36:F9:D6:B4:D8:44:1C:1E:01:6E:F5:67:CE:AE:29:2C:35:F0"
+      ]
+    }
+  }
+]
